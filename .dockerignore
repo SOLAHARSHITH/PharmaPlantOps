@@ -1,0 +1,11 @@
+**/.git
+**/.vs
+**/.idea
+**/bin
+**/obj
+**/node_modules
+**/.next
+**/.env
+**/*.db
+**/*.md
+**/tests

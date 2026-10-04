@@ -1,0 +1,16 @@
+infra/main.json
+bin/
+obj/
+.vs/
+.idea/
+*.user
+TestResults/
+.env
+*.db
+*.db-wal
+*.db-shm
+src/web/node_modules/
+src/web/.next/
+src/web/out/
+.vscode/settings.json
+docs/
