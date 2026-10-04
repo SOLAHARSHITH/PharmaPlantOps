@@ -28,8 +28,8 @@ export default function AppHeader() {
       </div>
       {session ? (
         <nav className="nav">
-          <Link href="/">Dashboard</Link>
-          <Link href="/alerts">Alerts</Link>
+          <Link href="/" className={pathname === "/" ? "active" : undefined}>Dashboard</Link>
+          <Link href="/alerts" className={pathname.startsWith("/alerts") ? "active" : undefined}>Alerts</Link>
           <span className="who">
             {session.username} · {session.role}
           </span>
